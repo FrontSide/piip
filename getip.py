@@ -13,7 +13,13 @@ def _is_valid_ip(ip):
 
 
 def get_ips():
-    interfaces = netifaces.interfaces()
-    ips = [netifaces.ifaddresses(ifc)[netifaces.AF_INET][0]['addr'] for ifc in interfaces]
+    
+    ips = []
+    for ifcname in netifaces.interfaces():
+    
+        ifc = netifaces.ifaddresses(ifcname)
+        if ifc.get(netifaces.AF_INET):
+            ips.append(ifc[netifaces.AF_INET][0]['addr'])
+        
     return [ip for ip in ips if _is_valid_ip(ip)]
 
