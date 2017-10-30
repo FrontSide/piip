@@ -1,0 +1,6 @@
+lib/
+include/
+bin/
+__pycache__/
+pip-selfcheck.json
+.send.py
