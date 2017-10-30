@@ -8,8 +8,12 @@ so you know with which IP to connect to it.
 
 ## Install
 - Clone this repository
-- make build
-- ./send
+- `make build`
+- Update the variables in `send.py` with your twilio credentials and phone numbers
+
+Run with `./send.py`
+
+To get the script to run a startup edti `/etc/rc.local` and add the script execution command.
 
 ## Requirements 
 - A twilio account (free account is sufficient) with a phone number that can send outgoing messaged.
