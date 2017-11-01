@@ -3,7 +3,7 @@
 Send the private IP address of a Raspberry PI 
 (or any linux machine for that matter) per SMS to a phone.
 
-You might want to chose to run `send.py` at machine startup
+You might want to chose to run `piip` at machine startup
 so you know with which IP to connect to it.
 
 ## Requirements
