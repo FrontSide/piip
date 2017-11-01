@@ -6,18 +6,28 @@ Send the private IP address of a Raspberry PI
 You might want to chose to run `send.py` at machine startup
 so you know with which IP to connect to it.
 
+## Requirements
+
+- python3 on your raspberryPi
+- A twilio account (free account is sufficient) with a phone number that can send outgoing messaged
+- A target phone
+
 ## Install
+
+```
+sudo pip install git+https://github.com/frontside/piip.git
+```
+
+Then update `/etc/piipconf.yaml` with your twilio credentials and phone numbers
+
+Alternatively:
 - Clone this repository
-- `make build`
-- Update the variables in `send.py` with your twilio credentials and phone numbers
+- Run `make build`
+- And then again update `/etc/piipconf.yaml`
 
-Run with `./send.py`
+## Usage
 
-To get the script to run a startup edti `/etc/rc.local` and add the script execution command.
+Run with `piip`
 
-## Requirements 
-- A twilio account (free account is sufficient) with a phone number that can send outgoing messaged.
-- A target phone of course.
-
-
+To get the script to run a startup edit `/etc/rc.local` and add the script execution command.
 

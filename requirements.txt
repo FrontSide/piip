@@ -5,6 +5,7 @@ netifaces==0.10.6
 PyJWT==1.5.3
 PySocks==1.6.7
 pytz==2017.2
+PyYAML==3.12
 requests==2.18.4
 six==1.11.0
 twilio==6.8.2

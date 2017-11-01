@@ -4,3 +4,4 @@ bin/
 __pycache__/
 pip-selfcheck.json
 .send.py
+piip.egg-info/

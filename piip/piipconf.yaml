@@ -1,0 +1,6 @@
+twilio:
+  account_sid: ""
+  auth_token: ""
+phones:
+  target_number: ""
+  source_number: ""
