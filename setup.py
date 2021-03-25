@@ -29,5 +29,5 @@ setup(name='piip',
           "six==1.11.0",
           "twilio==6.8.2",
           "urllib3==1.24.2",
-          "PyYAML==5.1"
+          "PyYAML==5.4"
       ])
