@@ -28,6 +28,6 @@ setup(name='piip',
           "requests==2.20.0",
           "six==1.11.0",
           "twilio==6.8.2",
-          "urllib3==1.24.2",
+          "urllib3==1.26.5",
           "PyYAML==5.1"
       ])
