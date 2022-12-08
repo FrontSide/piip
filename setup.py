@@ -18,7 +18,7 @@ setup(name='piip',
           ("/etc", ['piip/piipconf.yaml'])
       ],
       install_requires=[
-          "certifi==2017.7.27.1",
+          "certifi==2022.12.7",
           "chardet==3.0.4",
           "idna==2.6",
           "netifaces==0.10.6",
